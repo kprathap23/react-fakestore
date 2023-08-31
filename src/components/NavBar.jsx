@@ -69,8 +69,9 @@ function NavBar(props) {
 
           <Box sx={{ display: { xs: 'none', sm: 'block',
 
-            justifyContent:'center'
-        
+            justifyContent:'center',
+            textAlign:"center"
+
         
         } }}>
             {navItems.map((item) => (
