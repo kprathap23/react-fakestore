@@ -47,7 +47,7 @@ const Cart = () => {
     return (
       <>
         <section className="h-100 gradient-custom">
-          <div className="container py-5">
+          <div className="container ">
             <div className="row d-flex justify-content-center my-4">
               <div className="col-md-8">
                 <div className="card mb-4">
@@ -189,7 +189,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="container my-3 py-3">
+    <div className="container">
       <h1 className="text-center">Cart</h1>
       <hr />
       {state.length > 0 ? <ShowCart /> : <EmptyCart />}

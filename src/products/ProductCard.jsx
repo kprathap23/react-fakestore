@@ -41,9 +41,9 @@ export default function ProductCard({ products }) {
               <Typography gutterBottom variant="h5" component="div">
                 {product.title.substring(0, 15)}
               </Typography>
-              {/* <Typography variant="body2" color="text.secondary" >
-        {product.description}
-        </Typography> */}
+              { <Typography variant="h4" color="text.secondary" >
+       ${product.price}
+        </Typography> }
             </CardContent>
             <CardActions disableSpacing sx={{ justifyContent: "space-between" }}>
               <IconButton aria-label="Favorite">
@@ -55,7 +55,7 @@ export default function ProductCard({ products }) {
 
                   addProduct(product);
 
-                  alert("Product added to the cart");
+                  //alert("Product added to the cart");
 
                 }}
                 size="medium"
