@@ -1,0 +1,127 @@
+{
+    "fields": [
+        {
+            "name": "firstName",
+            "label": "First Name",
+            "type": "text"
+        },
+        {
+            "name": "lastName",
+            "label": "LastName",
+            "type": "text"
+        },
+        {
+            "name": "email",
+            "label": "Email",
+            "type": "email"
+        },
+        {
+            "name": "password",
+            "label": "Password",
+            "type": "password"
+        },
+        {
+            "name": "birthdate",
+            "label": "Birthdate",
+            "type": "date"
+        },
+        {
+            "name": "gender",
+            "label": "Gender",
+            "type": "select",
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
+        },
+        {
+            "name": "newsletter",
+            "label": "Subscribe to Newsletter",
+            "type": "checkbox"
+        },
+        {
+            "name": "bio",
+            "label": "Bio",
+            "type": "textarea"
+        },
+        {
+            "name": "country",
+            "label": "Country",
+            "type": "autocomplete",
+            "options": [
+                "USA",
+                "Canada",
+                "UK",
+                "Australia"
+            ]
+        },
+        {
+            "name": "phoneNumber",
+            "label": "Phone Number",
+            "type": "tel"
+        },
+        {
+            "name": "favoriteColor",
+            "label": "Favorite Color",
+            "type": "color"
+        },
+        {
+            "name": "avatar",
+            "label": "Avatar",
+            "type": "file"
+        },
+        {
+            "name": "terms",
+            "label": "Accept Terms and Conditions",
+            "type": "checkbox"
+        },
+        {
+            "name": "address",
+            "label": "Address",
+            "type": "text"
+        },
+        {
+            "name": "city",
+            "label": "City",
+            "type": "text"
+        },
+        {
+            "name": "zipcode",
+            "label": "Zip Code",
+            "type": "text"
+        },
+        {
+            "name": "interests",
+            "label": "Interests",
+            "type": "checkbox-group",
+            "options": [
+                "Reading",
+                "Traveling",
+                "Sports",
+                "Music"
+            ]
+        },
+        {
+            "name": "education",
+            "label": "Education",
+            "type": "radio-group",
+            "options": [
+                "High School",
+                "College",
+                "Graduate School"
+            ]
+        },
+        {
+            "name": "skills",
+            "label": "Skills",
+            "type": "multi-select",
+            "options": [
+                "JavaScript",
+                "React",
+                "Angular",
+                "Node.js"
+            ]
+        }
+    ]
+}
